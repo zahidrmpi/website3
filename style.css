@@ -1,0 +1,24 @@
+.menu{
+    background-color: #ccc;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+.menu ul li{
+    border-right: 1px dashed #000;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+ 
+    transition: 1s;
+}
+.menu ul li a:hover{
+    background-color: pink;
+   
+}
+.menu ul li:last-child{
+    border-right:none; 
+}
